@@ -5,7 +5,7 @@
 }
 
 // Captura de entrada del usuario desde la consola
-const userInput = prompt('¿Hacia dónde quieres explorar? (norte/sur/este/oeste)');
+export const userInput = prompt('¿Hacia dónde quieres explorar? (norte/sur/este/oeste)');
 
 // Validación de entrada del usuario
 if (userInput && ['norte', 'sur', 'este', 'oeste'].includes(userInput)) {
